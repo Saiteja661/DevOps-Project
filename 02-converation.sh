@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # This is a simple script that prints "Hello, World!" to the console.
-Person1="Teja"
-Person2="Assistant"
+Person1=$1
+Person2=$2
 
 echo "$Person1: Hi there! How are you doing today?"
 echo "$Person2: I'm doing great, thank you! How can I assist you today?"
